@@ -31,7 +31,7 @@
 
 - (void)createGradientLayer {
     NSArray *layerColors = @[(__bridge id)RGB(255, 255, 255, 0.0).CGColor, (__bridge id)RGB(255, 255, 255, 0.5).CGColor, (__bridge id)RGB(255, 255, 255, 0.95).CGColor];
-    NSArray *layerLocations = @[@(0.0), @(0.8), @(1.0)];
+    NSArray *layerLocations = @[@(0.2), @(0.8), @(1.0)];
     _topGradientLayer = [CAGradientLayer layer];
     _topGradientLayer.borderWidth = 0;
     _topGradientLayer.frame = CGRectZero;
